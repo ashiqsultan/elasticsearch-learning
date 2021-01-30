@@ -1,4 +1,7 @@
-ElasticSearch stores data as docs
+ElasticSearch stores data as docs.
+
+**Docs are stored under indexes**
+
 # Cluster, Nodes, Shards and Replicas
 Elasticsearch runs as a node inside a CLuster. Each cluster can have any number of node.
 The reason to shard is to break the large amount of data into several nodes.
